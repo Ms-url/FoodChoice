@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
                 intent.putExtra("key", ZHONG_XING);
+                intent.putExtra("name","中心食堂");
                 startActivity(intent);
             }
         });
@@ -39,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
                 intent.putExtra("key", YAN_SHENG);
+                intent.putExtra("name","延生食堂");
                 startActivity(intent);
             }
         });
@@ -47,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
                 intent.putExtra("key", SHEN_SHEN);
+                intent.putExtra("name","莘莘食堂");
                 startActivity(intent);
             }
         });

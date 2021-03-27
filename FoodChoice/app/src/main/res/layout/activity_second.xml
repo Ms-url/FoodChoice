@@ -6,4 +6,60 @@
     android:layout_height="match_parent"
     tools:context=".activitis.SecondActivity">
 
+    <Button
+        android:id="@+id/button_begin"
+        android:layout_width="179dp"
+        android:layout_height="173dp"
+        android:background="@drawable/circle"
+        android:text="begin"
+        android:textSize="26sp"
+        app:backgroundTint="#009688"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.778" />
+
+    <TextView
+        android:id="@+id/textView_place"
+        android:layout_width="419dp"
+        android:layout_height="69dp"
+        android:background="@drawable/rectangle_shen"
+        android:gravity="center"
+        android:textColor="#808688"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView_food"
+        android:layout_width="342dp"
+        android:layout_height="203dp"
+        android:background="@drawable/rectangle"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="38sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_begin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_place"
+        app:layout_constraintVertical_bias="0.506" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16sp"
+        android:src="@drawable/add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.922"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951" />
 </androidx.constraintlayout.widget.ConstraintLayout>
